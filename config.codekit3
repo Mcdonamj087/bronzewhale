@@ -51,6 +51,16 @@
 		"oAP": "\/assets\/fonts\/CourierBold.woff2",
 		"oF": 0
 		},
+	"\/assets\/img\/bronze-whale-bkg-wide-compressed.jpg": {
+		"ft": 16384,
+		"iS": 332708,
+		"oA": 0,
+		"oAP": "\/assets\/img\/bronze-whale-bkg-wide-compressed.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/bronze-whale-bkg-wide.jpg": {
 		"ft": 16384,
 		"iS": 7776770,
@@ -59,6 +69,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/bw-logo.png": {
+		"ft": 32768,
+		"iS": 137667,
+		"oA": 0,
+		"oAP": "\/assets\/img\/bw-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/css\/reset.css": {

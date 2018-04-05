@@ -1,0 +1,52 @@
+body {
+	background:
+		url(../assets/img/bronze-whale-bkg-wide-compressed.jpg)
+		top center / cover
+		no-repeat;
+	font-family: Courier;
+}
+
+@font-face {
+	font-family: 'Courier';
+	src: url('../assets/fonts/Courier.woff2') format('woff2'),
+	     url('../assets/fonts/Courier.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Courier-Bold';
+	src: url('../assets/fonts/CourierBold.woff2') format('woff2'),
+	     url('../assets/fonts/CourierBold.woff') format('woff');
+}
+
+.container {
+	text-align: center;
+	width: 1040px;
+	margin: 0 auto;
+	img.bw-logo {
+		width: 110px;
+		margin: 40px 0 10px;
+	}
+	h1 {
+		font-size: 24px;
+		line-height: 40px;
+		color: white;
+		word-spacing: -0.5em;
+		text-shadow: 0 5px 8px rgba(0,0,0,0.8);
+		text-transform: uppercase;
+		margin: 0;
+		span {
+			font-size: 40px;
+		}
+	}
+	.keys-wrap {
+		.key {
+
+		}
+		.character {
+
+		}
+		.sample-name {
+
+		}
+	}
+}
