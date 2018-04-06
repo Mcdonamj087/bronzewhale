@@ -153,6 +153,223 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/samples\/02_Trap_Snare_Hard_Dry.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/02_Trap_Snare_Hard_Dry.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/08_Trap_Snare_Decent.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/08_Trap_Snare_Decent.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/1 NIGHT Duo Kick.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/1 NIGHT Duo Kick.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/3.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/3.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/ASHYKNEE Kick.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/ASHYKNEE Kick.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/BIG MON TINGS Tom.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/BIG MON TINGS Tom.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/CALM Scratch.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/CALM Scratch.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/ChuckyDofflin01_PL_Ebmaj7.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/ChuckyDofflin01_PL_Ebmaj7.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/ChuckyDofflin02_Cm7.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/ChuckyDofflin02_Cm7.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/ChuckyDofflin03_Dm7.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/ChuckyDofflin03_Dm7.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/Cymatics - Terror Closed Hi Hat 002.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/Cymatics - Terror Closed Hi Hat 002.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/Cymatics Crash 1.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/Cymatics Crash 1.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/Cymatics Kick 004.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/Cymatics Kick 004.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/Cymatics Vox Chop 005.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/Cymatics Vox Chop 005.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/Cymatics Vox Chop 008.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/Cymatics Vox Chop 008.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/Cymatics Vox Chop 012.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/Cymatics Vox Chop 012.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/Drop Filterpad.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/Drop Filterpad.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/FFIRE Bass Down.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/FFIRE Bass Down.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/FX and Extras 3.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/FX and Extras 3.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/GADGET Scratch.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/GADGET Scratch.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/GOODNESS TOM 2.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/GOODNESS TOM 2.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/HighWuuw01_Abmaj7.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/HighWuuw01_Abmaj7.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/HighWuuw02_Bb.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/HighWuuw02_Bb.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/HighWuuw03_Cm.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/HighWuuw03_Cm.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/MORAL Cymbal.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/MORAL Cymbal.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/PITCH Snap 2.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/PITCH Snap 2.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/STL_fx_bird.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/STL_fx_bird.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/SWCP II Synth Design 01.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/SWCP II Synth Design 01.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/SWCP II Synth Design 07.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/SWCP II Synth Design 07.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/SWCP II Synth Design 09.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/SWCP II Synth Design 09.wav",
+		"oF": 0
+		},
+	"\/assets\/samples\/underwater_stab.wav": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/samples\/underwater_stab.wav",
+		"oF": 0
+		},
 	"\/css\/reset.css": {
 		"aP": 1,
 		"bl": 0,

@@ -1,153 +1,211 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  	<link href="css/reset.css" rel="stylesheet">
-  	<link href="css/styles.min.css" rel="stylesheet">
-  	<script
-		  src="https://code.jquery.com/jquery-1.12.4.min.js"
-		  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-		  crossorigin="anonymous"></script>
-  </head>
-  <body>
-  	<div class="container">
-			<img class="bw-logo" src="assets/img/bw-logo.png" alt="bw-logo">
-			<img class="bw-lettering" src="assets/img/bw-lettering.png" alt="bw-lettering">
-			<h1>Sound Stage</h1>
-			<div class="keys-wrap">
-				<div class="key green">
-					<p class="character">Q</p>
-					<p class="sample-name">Sample 1</p>
-				</div>
-				<div class="key green">
-					<p class="character">W</p>
-					<p class="sample-name">Sample 2</p>
-				</div>
-				<div class="key green">
-					<p class="character">E</p>
-					<p class="sample-name">Sample 3</p>
-				</div>
-				<div class="key green">
-					<p class="character">R</p>
-					<p class="sample-name">Sample 4</p>
-				</div>
-				<div class="key green">
-					<p class="character">T</p>
-					<p class="sample-name">Sample 5</p>
-				</div>
-				<div class="key green">
-					<p class="character">Y</p>
-					<p class="sample-name">Sample 6</p>
-				</div>
-				<div class="key green">
-					<p class="character">U</p>
-					<p class="sample-name">Sample 7</p>
-				</div>
-				<div class="key green">
-					<p class="character">I</p>
-					<p class="sample-name">Sample 8</p>
-				</div>
-				<div class="key green">
-					<p class="character">O</p>
-					<p class="sample-name">Sample 9</p>
-				</div>
-				<div class="key green">
-					<p class="character">P</p>
-					<p class="sample-name">Sample 10</p>
-				</div>
+<head>
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/styles.min.css" rel="stylesheet">
+	<script
+	  src="https://code.jquery.com/jquery-1.12.4.min.js"
+	  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+	  crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container">
+		<img class="bw-logo" src="assets/img/bw-logo.png" alt="bw-logo">
+		<img class="bw-lettering" src="assets/img/bw-lettering.png" alt="bw-lettering">
+		<h1>Sound Stage</h1>
+		<div class="keys-wrap">
+			<div class="key green" data-key="81">
+				<p class="character">Q</p>
+				<p class="sample-name">Sample 1</p>
 			</div>
-			<div class="keys-wrap">
-				<div class="key yellow">
-					<p class="character">A</p>
-					<p class="sample-name">Sample 11</p>
-				</div>
-				<div class="key yellow">
-					<p class="character">S</p>
-					<p class="sample-name">Sample 12</p>
-				</div>
-				<div class="key yellow">
-					<p class="character">D</p>
-					<p class="sample-name">Sample 13</p>
-				</div>
-				<div class="key yellow">
-					<p class="character">F</p>
-					<p class="sample-name">Sample 14</p>
-				</div>
-				<div class="key yellow">
-					<p class="character">G</p>
-					<p class="sample-name">Sample 15</p>
-				</div>
-				<div class="key yellow">
-					<p class="character">H</p>
-					<p class="sample-name">Sample 16</p>
-				</div>
-				<div class="key yellow">
-					<p class="character">J</p>
-					<p class="sample-name">Sample 17</p>
-				</div>
-				<div class="key yellow">
-					<p class="character">K</p>
-					<p class="sample-name">Sample 18</p>
-				</div>
-				<div class="key yellow">
-					<p class="character">L</p>
-					<p class="sample-name">Sample 19</p>
-				</div>
-				<div class="key yellow">
-					<p class="character">;</p>
-					<p class="sample-name">Sample 20</p>
-				</div>
+			<div class="key green" data-key="87">
+				<p class="character">W</p>
+				<p class="sample-name">Sample 2</p>
 			</div>
-			<div class="keys-wrap">
-				<div class="key blue">
-					<p class="character">Z</p>
-					<p class="sample-name">Sample 21</p>
-				</div>
-				<div class="key blue">
-					<p class="character">X</p>
-					<p class="sample-name">Sample 22</p>
-				</div>
-				<div class="key blue">
-					<p class="character">C</p>
-					<p class="sample-name">Sample 23</p>
-				</div>
-				<div class="key blue">
-					<p class="character">V</p>
-					<p class="sample-name">Sample 24</p>
-				</div>
-				<div class="key blue">
-					<p class="character">B</p>
-					<p class="sample-name">Sample 25</p>
-				</div>
-				<div class="key blue">
-					<p class="character">N</p>
-					<p class="sample-name">Sample 26</p>
-				</div>
-				<div class="key blue">
-					<p class="character">M</p>
-					<p class="sample-name">Sample 27</p>
-				</div>
-				<div class="key blue">
-					<p class="character"><</p>
-					<p class="sample-name">Sample 28</p>
-				</div>
-				<div class="key blue">
-					<p class="character">></p>
-					<p class="sample-name">Sample 29</p>
-				</div>
-				<div class="key blue">
-					<p class="character">?</p>
-					<p class="sample-name">Sample 30</p>
-				</div>
+			<div class="key green" data-key="69">
+				<p class="character">E</p>
+				<p class="sample-name">Sample 3</p>
 			</div>
-			<a class="site-link" href="bronzewhale.com" target="_blank">Bronzewhale.com</a>
-			<div id="social-lockup">
-				<a href="http://www.facebook.com/thebronzewhale" title="Bronze Whale Facebook Page" target="_blank"><img src="assets/img/icon-fb.svg" alt="icon-facebook"></a>
-				<a href="https://twitter.com/BronzeWhale" title="Bronze Whale Twitter Page" target="_blank"><img src="assets/img/icon-tw.svg" alt="icon-twitter"></a>
-				<a href="https://open.spotify.com/user/bronzewhale" title="Bronze Whale Spotify" target="_blank"><img src="assets/img/icon-sp.svg" alt="icon-spotify"></a>
-				<a href="https://soundcloud.com/thebronzewhale" title="Bronze Whale SoundCloud" target="_blank"><img src="assets/img/icon-sc.svg" alt="icon-soundcloud"></a>
-				<a href="http://instagram.com/bronzewhale" title="Bronze Whale Instagram" target="_blank"><img src="assets/img/icon-insta.svg" alt="icon-instagram"></a>
-				<a href="http://www.youtube.com/channel/UCIzE4oCkorgLTirA6k4Vzww" title="Bronze Whale Youtube" target="_blank"><img src="assets/img/icon-yt.svg" alt="icon-youtube"></a>
+			<div class="key green" data-key="82">
+				<p class="character">R</p>
+				<p class="sample-name">Sample 4</p>
 			</div>
-  	</div>
-  </body>
+			<div class="key green" data-key="84">
+				<p class="character">T</p>
+				<p class="sample-name">Sample 5</p>
+			</div>
+			<div class="key green" data-key="89">
+				<p class="character">Y</p>
+				<p class="sample-name">Sample 6</p>
+			</div>
+			<div class="key green" data-key="85">
+				<p class="character">U</p>
+				<p class="sample-name">Sample 7</p>
+			</div>
+			<div class="key green" data-key="73">
+				<p class="character">I</p>
+				<p class="sample-name">Sample 8</p>
+			</div>
+			<div class="key green" data-key="79">
+				<p class="character">O</p>
+				<p class="sample-name">Sample 9</p>
+			</div>
+			<div class="key green" data-key="80">
+				<p class="character">P</p>
+				<p class="sample-name">Sample 10</p>
+			</div>
+		</div>
+		<div class="keys-wrap">
+			<div class="key yellow" data-key="65">
+				<p class="character">A</p>
+				<p class="sample-name">Sample 11</p>
+			</div>
+			<div class="key yellow" data-key="83">
+				<p class="character">S</p>
+				<p class="sample-name">Sample 12</p>
+			</div>
+			<div class="key yellow" data-key="68">
+				<p class="character">D</p>
+				<p class="sample-name">Sample 13</p>
+			</div>
+			<div class="key yellow" data-key="70">
+				<p class="character">F</p>
+				<p class="sample-name">Sample 14</p>
+			</div>
+			<div class="key yellow" data-key="71">
+				<p class="character">G</p>
+				<p class="sample-name">Sample 15</p>
+			</div>
+			<div class="key yellow" data-key="72">
+				<p class="character">H</p>
+				<p class="sample-name">Sample 16</p>
+			</div>
+			<div class="key yellow" data-key="74">
+				<p class="character">J</p>
+				<p class="sample-name">Sample 17</p>
+			</div>
+			<div class="key yellow" data-key="75">
+				<p class="character">K</p>
+				<p class="sample-name">Sample 18</p>
+			</div>
+			<div class="key yellow" data-key="76">
+				<p class="character">L</p>
+				<p class="sample-name">Sample 19</p>
+			</div>
+			<div class="key yellow" data-key="186">
+				<p class="character">;</p>
+				<p class="sample-name">Sample 20</p>
+			</div>
+		</div>
+		<div class="keys-wrap">
+			<div class="key blue" data-key="90">
+				<p class="character">Z</p>
+				<p class="sample-name">Sample 21</p>
+			</div>
+			<div class="key blue" data-key="88">
+				<p class="character">X</p>
+				<p class="sample-name">Sample 22</p>
+			</div>
+			<div class="key blue" data-key="67">
+				<p class="character">C</p>
+				<p class="sample-name">Sample 23</p>
+			</div>
+			<div class="key blue" data-key="86">
+				<p class="character">V</p>
+				<p class="sample-name">Sample 24</p>
+			</div>
+			<div class="key blue" data-key="66">
+				<p class="character">B</p>
+				<p class="sample-name">Sample 25</p>
+			</div>
+			<div class="key blue" data-key="78">
+				<p class="character">N</p>
+				<p class="sample-name">Sample 26</p>
+			</div>
+			<div class="key blue" data-key="77">
+				<p class="character">M</p>
+				<p class="sample-name">Sample 27</p>
+			</div>
+			<div class="key blue" data-key="188">
+				<p class="character">,</p>
+				<p class="sample-name">Sample 28</p>
+			</div>
+			<div class="key blue" data-key="190">
+				<p class="character">.</p>
+				<p class="sample-name">Sample 29</p>
+			</div>
+			<div class="key blue" data-key="191">
+				<p class="character">/</p>
+				<p class="sample-name">Sample 30</p>
+			</div>
+		</div>
+		<a class="site-link" href="bronzewhale.com" target="_blank">Bronzewhale.com</a>
+		<div id="social-lockup">
+			<a href="http://www.facebook.com/thebronzewhale" title="Bronze Whale Facebook Page" target="_blank"><img src="assets/img/icon-fb.svg" alt="icon-facebook"></a>
+			<a href="https://twitter.com/BronzeWhale" title="Bronze Whale Twitter Page" target="_blank"><img src="assets/img/icon-tw.svg" alt="icon-twitter"></a>
+			<a href="https://open.spotify.com/user/bronzewhale" title="Bronze Whale Spotify" target="_blank"><img src="assets/img/icon-sp.svg" alt="icon-spotify"></a>
+			<a href="https://soundcloud.com/thebronzewhale" title="Bronze Whale SoundCloud" target="_blank"><img src="assets/img/icon-sc.svg" alt="icon-soundcloud"></a>
+			<a href="http://instagram.com/bronzewhale" title="Bronze Whale Instagram" target="_blank"><img src="assets/img/icon-insta.svg" alt="icon-instagram"></a>
+			<a href="http://www.youtube.com/channel/UCIzE4oCkorgLTirA6k4Vzww" title="Bronze Whale Youtube" target="_blank"><img src="assets/img/icon-yt.svg" alt="icon-youtube"></a>
+		</div>
+	</div>
+
+	<audio src="assets/samples/1 NIGHT Duo Kick.wav" data-key="81"></audio>
+	<audio src="assets/samples/ASHYKNEE Kick.wav" data-key="87"></audio>
+	<audio src="assets/samples/Cymatics Kick 004.wav" data-key="69"></audio>
+	<audio src="assets/samples/02_Trap_Snare_Hard_Dry.wav" data-key="82"></audio>
+	<audio src="assets/samples/08_Trap_Snare_Decent.wav" data-key="84"></audio>
+	<audio src="assets/samples/PITCH Snap 2.wav" data-key="89"></audio>
+	<audio src="assets/samples/Cymatics - Terror Closed Hi Hat 002.wav" data-key="85"></audio>
+	<audio src="assets/samples/Cymatics Crash 1.wav" data-key="73"></audio>
+	<audio src="assets/samples/MORAL Cymbal.wav" data-key="79"></audio>
+	<audio src="assets/samples/GOODNESS TOM 2.wav" data-key="80"></audio>
+	<audio src="assets/samples/BIG MON TINGS Tom.wav" data-key="65"></audio>
+	<audio src="assets/samples/CALM Scratch.wav" data-key="83"></audio>
+	<audio src="assets/samples/FFIRE Bass Down.wav" data-key="68"></audio>
+	<audio src="assets/samples/FX and Extras 3.wav" data-key="70"></audio>
+	<audio src="assets/samples/GADGET Scratch.wav" data-key="71"></audio>
+	<audio src="assets/samples/underwater_stab.wav" data-key="72"></audio>
+	<audio src="assets/samples/STL_fx_bird.wav" data-key="74"></audio>
+	<audio src="assets/samples/SWCP II Synth Design 01.wav" data-key="75"></audio>
+	<audio src="assets/samples/SWCP II Synth Design 07.wav" data-key="76"></audio>
+	<audio src="assets/samples/SWCP II Synth Design 09.wav" data-key="186"></audio>
+	<audio src="assets/samples/ChuckyDofflin01_PL_Ebmaj7.wav" data-key="90"></audio>
+	<audio src="assets/samples/ChuckyDofflin02_Cm7.wav" data-key="88"></audio>
+	<audio src="assets/samples/ChuckyDofflin03_Dm7.wav" data-key="67"></audio>
+	<audio src="assets/samples/Cymatics Vox Chop 005.wav" data-key="86"></audio>
+	<audio src="assets/samples/Cymatics Vox Chop 008.wav" data-key="66"></audio>
+	<audio src="assets/samples/Cymatics Vox Chop 012.wav" data-key="78"></audio>
+	<audio src="assets/samples/HighWuuw01_Abmaj7.wav" data-key="77"></audio>
+	<audio src="assets/samples/HighWuuw02_Bb.wav" data-key="188"></audio>
+	<audio src="assets/samples/HighWuuw03_Cm.wav" data-key="190"></audio>
+	<audio src="assets/samples/Drop Filterpad.wav" data-key="191"></audio>
+
+
+<script>
+	window.addEventListener('keydown', playSound);
+
+	const keys = document.querySelectorAll('.key');
+	keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+
+	function playSound(e) {
+		const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`)
+		const key = document.querySelector(`.key[data-key="${e.keyCode}"]`)
+
+		if(!audio) return; // stop the function from running all together
+
+		audio.currentTime = 0; // rewind to start
+		audio.play();
+		key.classList.add('pressed');
+	}
+
+	function removeTransition(e) {
+		if (e.propertyName !== 'transform') return; // skip it if it's not a transform
+		this.classList.remove('pressed');
+	}
+</script>
+
+
+
+</body>
 </html>
