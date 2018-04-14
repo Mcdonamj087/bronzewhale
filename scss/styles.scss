@@ -12,7 +12,7 @@ body {
 		url(../assets/img/patternssoundstage-compressed.jpg)
 		bottom center / cover
 		no-repeat;
-	font-family: Courier;
+	font-family: 'Futura-Medium';
 	height: 100vh;
 	margin: 0;
 	-webkit-font-smoothing: antialiased;
@@ -26,7 +26,6 @@ body {
 	src: url('../assets/fonts/Futura-Light.woff2') format('woff2'),
 	     url('../assets/fonts/Futura-Light.woff') format('woff');
 }
-
 @font-face {
 	font-family: 'Futura-Medium';
 	src: url('../assets/fonts/Futura-Medium.woff2') format('woff2'),
@@ -45,6 +44,9 @@ body {
 		width: 180px;
 		display: block;
 		margin: 0 auto 15px;
+		@media (max-height: 420px) {
+			display: none;
+		}
 	}
 	h1 {
 		font-family: 'Futura-Medium';
@@ -55,6 +57,12 @@ body {
     letter-spacing: 0.2em;
     margin: 0;
     padding-bottom: 50px;
+    @media (max-width: 480px) {
+    	font-size: 30px;
+    }
+    @media (max-height: 420px) {
+			display: none;
+		}
 	}
 	a.site-link {
 		font-family: 'Futura-Medium';
@@ -67,6 +75,15 @@ body {
 		color: #000;
 		text-transform: uppercase;
 		letter-spacing: 0.05em;
+		@media (max-width: 480px) {
+			top: inherit;
+			bottom: 50px;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+		@media (max-height: 420px) {
+			display: none;
+		}
 	}
 	.keysWrap {
 		max-width: 1000px;
@@ -137,6 +154,14 @@ body {
 		width: 250px;
 		display: flex;
 		justify-content: space-between;
+		@media (max-width: 480px) {
+			top: 50px;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+		@media (max-height: 420px) {
+			display: none;
+		}
 		a {
 			transition: all 0.3s ease-out;
 			padding: 0 10px;
@@ -149,6 +174,32 @@ body {
 		}
 		img {
 			height: 18px;
+		}
+	}
+	#mobileMessageBox {
+		display: none;
+		@media (max-width: 480px) {
+			display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	    opacity: 0.98;
+	    padding: 30px;
+	    position: absolute;
+	    top: 20px;
+	    right: 20px;
+	    left: 20px;
+	    bottom: 20px;
+	    background: #fff;
+	    border-radius: 4px;
+	    box-shadow: 0px 4px 26px 0px rgba(174, 112, 112, 0.7);
+		}
+		h2 {
+			font-size:40px;
+			margin-bottom: 30px;
+		}
+		p {
+			font-family: 'Futura-Light';
+			font-size: 30px;
 		}
 	}
 }

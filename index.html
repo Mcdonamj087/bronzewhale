@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="css/reset.css" rel="stylesheet">
 	<link href="css/styles.min.css" rel="stylesheet">
 	<script
@@ -10,6 +11,10 @@
 </head>
 <body>
 	<div class="container">
+		<div id="mobileMessageBox">
+			<h2>Oops!</h2>
+			<p>We are sorry, but this experience only runs on desktop at the moment. Mobile and touch functionality coming soon!</p>
+		</div>
 		<!--<img class="bw-logo" src="assets/img/bw-logo.png" alt="bw-logo">-->
 		<img class="bw-lettering" src="assets/img/bronze-whale-lettering-copy.png" alt="bw-lettering">
 		<h1>Soundstage</h1>
@@ -154,6 +159,7 @@
 
 <script>
 	window.addEventListener('keydown', playSound);
+	window.addEventListener('touchend', playSound);
 
 	const keys = document.querySelectorAll('.key');
 	keys.forEach(key => key.addEventListener('transitionend', removeTransition));
@@ -173,6 +179,8 @@
 		if (e.propertyName !== 'transform') return; // skip it if it's not a transform
 		this.classList.remove('pressed');
 	}
+
+
 </script>
 
 
